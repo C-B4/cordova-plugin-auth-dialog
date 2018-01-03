@@ -17,7 +17,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AuthDialog"> 
-                <param name="android-package" value="cordova-plugin-auth-dialog"/>
+                <param name="android-package" value="cordova-plugin-auth-dialog.AuthRequestHandler"/>
                 <param name="onload" value="true" />
             </feature>
         </config-file>
